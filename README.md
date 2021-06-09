@@ -1,9 +1,9 @@
 # Scanner of ports
-Scanner of ports - web-приложениедля сканирования открытых 
+Scanner of ports - web-приложение для сканирования открытых 
 TCP портов удаленного хоста.
 
-## Реализует слудующее REST API
-GET /scan/<ip>/<begin_port>/<end_port>
+## Реализует следующее REST API
+GET /scan/ip/begin_port/end_port
 * ip - хост, который необходимо просканировать
 * begin_port - начало диапазона портов для сканирования
 * end_port - конец диапазона
@@ -15,5 +15,5 @@ GET /scan/<ip>/<begin_port>/<end_port>
 
 ## До запуска приложения
 1. Создайте виртуальное окружение
-2. Установите зависимости pip install -r requirements.txt
+2. Установите зависимости из requirements.txt
 3. Запустите scanner_of_ports.py
